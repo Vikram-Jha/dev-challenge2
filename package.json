@@ -1,0 +1,26 @@
+{
+  "name": "beer-meme",
+  "version": "1.0.0",
+  "description": "A technical project to showcase my abilities",
+  "type": "module",
+  "scripts": {
+    "start": "npx parcel public/index.html",
+    "dev": "npx parcel build public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikram Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0"
+  }
+}

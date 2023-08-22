@@ -1,0 +1,20 @@
+.product-card {
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(75, 160, 234);
+}
+
+.product-card__image {
+  margin-top: 15px;
+  width: 70px;
+  height: 200px;
+}
+
+.product-card__name {
+  font-size: 1.6rem;
+}
+
+.product-card a {
+  text-decoration: none;
+  color: var(--just-white);
+}

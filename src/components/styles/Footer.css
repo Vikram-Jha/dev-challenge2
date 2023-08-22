@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: var(--secondary-color);
+}
+
+footer p {
+  margin: 0 auto;
+}

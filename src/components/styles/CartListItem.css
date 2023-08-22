@@ -1,0 +1,6 @@
+.list-cart-container{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 60px 80px;
+}
