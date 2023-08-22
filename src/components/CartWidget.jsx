@@ -13,8 +13,8 @@ const CartWidget = () => {
 
   return (
     <div className="cart-widget">
-      <FontAwesomeIcon icon={faBeer} size="2x" color="white" />
-      <div className="qty-display">{cart.length}</div>
+      <FontAwesomeIcon icon={faBeer} size="2x" color="#0B666A" />
+      <div className="qty-display" style={{ color: "black", backgroundColor: "#0B666A" }}>{cart.length}</div>
     </div>
   );
 };

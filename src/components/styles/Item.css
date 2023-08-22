@@ -1,7 +1,8 @@
 .product-card {
   text-align: center;
   border: 1px solid black;
-  background-color: rgb(75, 160, 234);
+  border-radius: 10px;
+  background-color: #A8DF8E;
 }
 
 .product-card__image {
