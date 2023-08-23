@@ -1,0 +1,35 @@
+/* Default styles for small screens */
+.contact-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+@media (min-width: 520px) {
+  .contact-container {
+    padding: 100px;
+  }
+}
+
+/* Responsive styles for screens wider than 768px */
+@media (min-width: 768px) {
+  .contact-container {
+    padding: 200px;
+  }
+}
+
+/* Responsive styles for screens wider than 992px */
+@media (min-width: 992px) {
+  .contact-container {
+    padding: 160px;
+  }
+}
+
+/* Responsive styles for screens wider than 1200px */
+@media (min-width: 1200px) {
+  .contact-container {
+    padding: 200px;
+  }
+}

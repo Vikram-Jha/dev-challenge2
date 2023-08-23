@@ -7,6 +7,7 @@ import Products from "../pages/Products";
 import Footer from "../components/Footer";
 import Page404 from "../pages/Page404";
 import CartPage from "../pages/CartPage";
+import Contact from "../pages/Contact";
 
 const AppRouter = () => {
   return (
@@ -16,6 +17,7 @@ const AppRouter = () => {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/detail/:id" element={<DetailPage />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
